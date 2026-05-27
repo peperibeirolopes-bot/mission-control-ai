@@ -147,7 +147,7 @@ for i, ciclo in enumerate(dados_missao):
     pontuacoes_por_area[3] += pont_oxi
     pontuacoes_por_area[4] += pont_estab
 
-    # Classificar e recomendar
+
     classificacao = classificar_ciclo(total)
     recomendacao  = gerar_recomendacao(total)
 
